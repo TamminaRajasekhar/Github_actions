@@ -5,7 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: get custom action name
-        uses: actions/checkout@v3
-      - name: get custom action name
-        uses: TamminaRajasekhar/Github_actions@main
+        uses: TamminaRajasekhar/Github_actions/actionss.yaml@main
       
