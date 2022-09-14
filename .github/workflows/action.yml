@@ -1,9 +1,11 @@
 name: learn-github-actions
 on: [push]
 jobs:
-  check-bats-version:
+  Basic_custom_action:
     runs-on: ubuntu-latest
     steps:
       - uses: TamminaRajasekhar/Github_actions@main
-        run: " ${{action.yaml}}"
+      - name: show output of custom action
+        run: |
+           echo "::set-output name=action::$action.yaml"
   
