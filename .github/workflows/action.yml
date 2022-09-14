@@ -5,7 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: TamminaRajasekhar/Github_actions@main
-      - name: show output of custom action
-        run: |
-           echo "::set-output name=action::$action.yaml"
-  
+      
