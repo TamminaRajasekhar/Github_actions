@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo "Raj"
+name= "first Project"
+echo "$name"
