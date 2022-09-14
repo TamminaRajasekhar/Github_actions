@@ -1,5 +1,6 @@
 name: learn-github-actions
-on: [push]
+on: 
+  workflow_dispatch:
 jobs:
   Basic_custom_action:
     runs-on: ubuntu-latest
