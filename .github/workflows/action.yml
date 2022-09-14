@@ -7,4 +7,4 @@ jobs:
       - name: get custom action name
         uses: actions/checkout@v3
       - name: actions
-        uses: TamminaRajasekhar/Github_actions/actionss.yaml@main
+        uses: TamminaRajasekhar/Github_actions/actions/new.yml@main
