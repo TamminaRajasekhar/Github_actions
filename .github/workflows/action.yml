@@ -5,6 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: TamminaRajasekhar/Github_actions@main
-        name: sample action
-        id: hello
+        run: " ${{action.yaml}}"
   
