@@ -6,4 +6,3 @@ jobs:
     steps:
       - name: get custom action name
         uses: TamminaRajasekhar/Github_actions/actionss.yaml@main
-      
