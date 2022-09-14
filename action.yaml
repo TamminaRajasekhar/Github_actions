@@ -1,4 +1,4 @@
 #!/bin/bash
 
 name= "first Project"
-echo "$name"
+echo $name
