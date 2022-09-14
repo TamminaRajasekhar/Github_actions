@@ -7,5 +7,4 @@ jobs:
       - uses: TamminaRajasekhar/Github_actions@main
         name: sample action
         id: hello
-      - name: get the name
-        run: echo "${{steps.hello}} hi"
+  
