@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: custom actions
-        uses: TamminaRajasekhar/Github_actions/ex.sh@main
+        uses: ./Github_actions/actionss.yaml
     
